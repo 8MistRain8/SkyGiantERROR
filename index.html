@@ -174,6 +174,41 @@ img, video {
   margin: 0 auto; /* Centers the GIF */
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas {
+    width: 100%;
+    height: auto; /* Or adjust the height as needed */
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">//_______________________IMAGES________________
 function preloadImages(imageUrls) {
     imageUrls.forEach(function(url) {
@@ -255,10 +290,7 @@ const allVideos = [
   	"https://ia801201.us.archive.org/1/items/blinds-flicker/BlindsFlicker.mp4" //BlindsFlicker
 ];
 
-preloadVideoGroup(allVideos);
-
-
-</script><tw-passagedata pid="1" name="&quot;It could be so easy.&quot;" tags="" position="800,3075" size="100,100">&lt;img src=&quot;https://i.imgur.com/hgHM73R.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
+preloadVideoGroup(allVideos);</script><tw-passagedata pid="1" name="&quot;It could be so easy.&quot;" tags="" position="800,3075" size="100,100">&lt;img src=&quot;https://i.imgur.com/hgHM73R.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
 
 [[Suffering.]]</tw-passagedata><tw-passagedata pid="2" name="&quot;Nothing belongs to you.&quot;" tags="" position="800,3575" size="100,100">&lt;img src=&quot;https://i.imgur.com/E4CR0mC.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
 
@@ -394,7 +426,12 @@ It [[all.]]</tw-passagedata><tw-passagedata pid="15" name="Isn&#39;t." tags="" p
 
 &lt;&lt;cacheaudio &quot;Dying&quot; &quot;https://ia800607.us.archive.org/4/items/noir_20250309/Dying.ogg&quot;&gt;&gt; 
 
-&lt;&lt;cacheaudio &quot;Corrupt&quot; &quot;https://ia800607.us.archive.org/4/items/noir_20250309/Dying_Corrupt.ogg&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="Suffering." tags="" position="800,3200" size="100,100">&lt;img src=&quot;https://i.imgur.com/6Kx013W.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
+&lt;&lt;cacheaudio &quot;Corrupt&quot; &quot;https://ia800607.us.archive.org/4/items/noir_20250309/Dying_Corrupt.ogg&quot;&gt;&gt;
+
+&lt;script&gt;
+  document.querySelector(&quot;meta[name=viewport]&quot;).setAttribute(&quot;content&quot;, &quot;width=device-width, initial-scale=1.0&quot;);
+&lt;/script&gt;
+</tw-passagedata><tw-passagedata pid="20" name="Suffering." tags="" position="800,3200" size="100,100">&lt;img src=&quot;https://i.imgur.com/6Kx013W.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
 
 [[&quot;To end it all.&quot;]]</tw-passagedata><tw-passagedata pid="21" name="This." tags="" position="800,2325" size="100,100">&lt;img src=&quot;https://i.imgur.com/YjaJDOk.gif&quot;  style=&quot;display: block; margin-left: auto; margin-right: auto; width: 100%;&quot; /&gt;
 
