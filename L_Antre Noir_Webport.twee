@@ -1,0 +1,500 @@
+:: StoryTitle
+L'Antre Noir
+
+
+:: StoryData
+{
+  "ifid": "2F458D8E-393D-4875-A7EF-C8F06D06B00A",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Welcome.",
+  "zoom": 1
+}
+
+
+:: "It could be so easy." {"position":"800,3075","size":"100,100"}
+<img src="https://i.imgur.com/hgHM73R.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Suffering.]]
+
+
+:: "Nothing belongs to you." {"position":"800,3575","size":"100,100"}
+<img src="https://i.imgur.com/E4CR0mC.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Nothing.]]
+
+
+:: "Think about it." {"position":"800,2825","size":"100,100"}
+<img src="https://i.imgur.com/lGbiMDC.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Pain.]]
+
+
+:: "To end it all." {"position":"800,3325","size":"100,100"}
+<img src="https://i.imgur.com/o7upPNt.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Everything.]]
+
+<<audio Ending stop>>
+<<audio TheGun play>>
+
+
+:: ... {"position":"800,3900","size":"100,100"}
+<span class="fade-in" style="font-size: 48px; font-weight: bold;">End This Nightmare.</span>
+
+<span class="fade-in">Written and produced by Rain.</span>
+
+<span class="fade-in">Music by Mist.</span>
+
+<a href="https://mistrain.neocities.org/" class="fade-in" target="_blank">Continue?</a>
+<span class="fade-in">[[Resist.->Welcome.]]</span>
+
+
+:: 10 {"position":"800,1575","size":"100,100"}
+<img src="https://i.imgur.com/5yRIQpN.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+What is this?
+I almost [[remember.->11]]
+
+
+:: 11 {"position":"800,1700","size":"100,100"}
+<img src="https://i.imgur.com/V8OrhYN.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+Our goal,
+All this time,
+[[Hurts.->12]]
+
+
+:: 12 {"position":"800,1825","size":"100,100"}
+<img src="https://i.imgur.com/KLmTdeJ.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+[[All of it are...->Lies]]
+
+
+:: 7 {"position":"800,1200","size":"100,100"}
+<img src="https://i.imgur.com/0PRd5TA.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+Ancient secrets.
+They know, with a conscience.
+Birth, too hard, too much.
+I’m speaking to someone, the room is too small, too sideways. 
+My head is starting to get heavy, I can no longer recall,
+This goal, this everything.
+Rampant, my [[doubts->8]].
+
+
+:: 8 {"position":"800,1325","size":"100,100"}
+<img src="https://i.imgur.com/MulC56l.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+This life, this dream,
+This vivid,
+Grand expanse.
+Everything is [[possible.->9]]
+
+
+:: 9 {"position":"800,1450","size":"100,100"}
+<img src="https://i.imgur.com/H8oXLAu.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+[[Everything.->10]]
+
+
+:: Everything. {"position":"800,3450","size":"100,100"}
+<img src="https://i.imgur.com/36zsQgn.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[["Nothing belongs to you."]]
+
+
+:: Flickering Lights {"position":"800,2075","size":"100,100"}
+<video id="FlickeringLights" autoplay style="display: block; margin: 0; padding: 0; width: 100%;">
+  <source src="https://ia801201.us.archive.org/1/items/blinds-flicker/BlindsFlicker.mp4">
+</video>
+
+[[Welcome.|ThroneRoom1]]
+
+<script>
+  // Wait until the entire page is fully loaded
+  window.onload = function() {
+    var video = document.getElementById("myVideo");
+
+    // Check if the video element exists
+    if (video) {
+      // When the video ends, go to the next passage
+      video.onended = function() {
+        console.log("Video has ended, transitioning to Ending Cutscene...");
+        Engine.play("Ending Cutscene"); // SugarCube method for passage transition
+      };
+    } else {
+      console.error("Video element not found.");
+    }
+  };
+</script>
+
+
+:: Inside. {"position":"800,700","size":"100,100"}
+<img src="https://i.imgur.com/ZDyElL6.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+Flight.
+Sight.
+Certainties.
+The effects of thinking.
+Everything becomes clear, depths, I think.
+But I am,
+I lost.
+It [[all.]]
+
+
+:: Isn't. {"position":"800,2450","size":"100,100"}
+<img src="https://i.imgur.com/J6kKVvN.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[What I...]]
+
+
+:: Lies {"position":"800,1950","size":"100,100"}
+<video id="myVideo" autoplay style="display: block; margin: 0; padding: 0; width: 100%;">
+  <source src="https://ia801201.us.archive.org/1/items/blinds-flicker/Thebook.mp4">
+</video>
+
+[[Lies.|Flickering Lights]]
+
+<script>
+  // Wait until the entire page is fully loaded
+  window.onload = function() {
+    var video = document.getElementById("myVideo");
+
+    // Check if the video element exists
+    if (video) {
+      // When the video ends, go to the next passage
+      video.onended = function() {
+        Engine.play("Flickering Lights"); // SugarCube method for passage transition
+      };
+    } else {
+      console.error("Video element not found.");
+    }
+  };
+</script>
+
+<<audio mainsong stop>>
+<<audio song play>>
+
+
+:: Nothing. {"position":"800,3725","size":"100,100"}
+<video id="Lies" autoplay style="display: block; margin: 0; padding: 0; width: 100%;">
+  <source src="https://ia601201.us.archive.org/1/items/blinds-flicker/Lies.mp4">
+</video>
+
+
+<script>
+  // Wait until the entire page is fully loaded
+  window.onload = function() {
+    var video = document.getElementById("myVideo");
+
+    // Check if the video element exists
+    if (video) {
+      // When the video ends, go to the next passage
+      video.onended = function() {
+        Engine.play("Flickering Lights"); // SugarCube method for passage transition
+      };
+    } else {
+      console.error("Video element not found.");
+    }
+  };
+</script>
+[[...]]
+
+<<audio Dying play>>
+
+
+:: Pain. {"position":"800,2950","size":"100,100"}
+<img src="https://i.imgur.com/9iMy4NC.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[["It could be so easy."]]
+
+
+:: StoryInit {"position":"625,325","size":"100,100"}
+<<cacheaudio "mainsong" "https://ia800607.us.archive.org/4/items/noir_20250309/Noir.ogg">>
+
+<<cacheaudio "song" "https://ia600607.us.archive.org/4/items/noir_20250309/Hatred.ogg">> 
+
+<<cacheaudio "TheGun" "https://ia600607.us.archive.org/4/items/noir_20250309/TheGun.ogg">> 
+
+<<cacheaudio "Ending" "https://ia800607.us.archive.org/4/items/noir_20250309/Ending.ogg">>
+
+<<cacheaudio "Dying" "https://ia800607.us.archive.org/4/items/noir_20250309/Dying.ogg">> 
+
+<<cacheaudio "Corrupt" "https://ia800607.us.archive.org/4/items/noir_20250309/Dying_Corrupt.ogg">>
+
+
+:: Suffering. {"position":"800,3200","size":"100,100"}
+<img src="https://i.imgur.com/6Kx013W.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[["To end it all."]]
+
+
+:: This. {"position":"800,2325","size":"100,100"}
+<img src="https://i.imgur.com/YjaJDOk.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Isn't.]]
+
+
+:: ThroneRoom1 {"position":"800,2200","size":"100,100"}
+<img src="https://i.imgur.com/GfX0f53.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[This.]]
+
+<<audio song stop>>
+<<audio Ending loop play>>
+
+
+:: Wanted. {"position":"800,2700","size":"100,100"}
+<img src="https://i.imgur.com/yMDDFvs.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[["Think about it."]]
+
+
+:: Welcome. {"position":"800,325","size":"100,100"}
+<<audio Dying stop>>
+<<audio mainsong play>>
+
+<img src="https://i.imgur.com/YCgY4pu.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+
+<span class="fade-in">"Welcome." </span>
+
+<span class="fade-in">"It's so nice to see you again." </span> 
+
+<span class="fade-in">"Hope you've been well? As well as one can be considering the state of yourself." </span> 
+
+<span class="fade-in">"Well..." </span> 
+
+<span class="fade-in">"Shall we try again?" </span>
+
+<span class="fade-in">"To [[leave]] this nightmare?" </span>
+
+
+:: What I... {"position":"800,2575","size":"100,100"}
+<img src="https://i.imgur.com/ANqGzLj.gif"  style="display: block; margin-left: auto; margin-right: auto; width: 100%;" />
+
+[[Wanted.]]
+
+
+:: all. {"position":"800,825","size":"100,100"}
+<img src="https://i.imgur.com/m1DcJnx.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+At the earth.
+I feel safe.
+I feel all.
+It’s not the same,
+The others,
+My goal,
+Is clear.
+For [[now.]]
+
+
+:: different. {"position":"800,575","size":"100,100"}
+<img src="https://i.imgur.com/xxTCx7s.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+A flight. 
+The waves of clouds brush past. 
+Terrifying. Now, I’m maintaining my calm. 
+Everything, is calm. 
+Like frogs in the water. 
+Landing on the ground,
+In the stability.
+Everything is certain.
+[[Inside.]]
+
+
+:: leave {"position":"800,450","size":"100,100"}
+<img src="https://i.imgur.com/AIg93bO.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+A new adventure starts.
+I don’t know where he is. 
+Maybe,
+They are far. 
+Maybe,
+She is close. 
+Seeing all the sunsets,
+It’s exciting,
+Far far far away here.
+A thing [[different.]]
+
+
+:: now. {"position":"800,950","size":"100,100"}
+<img src="https://i.imgur.com/5yRIQpN.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+Arriving, before time stops to move.
+It’s so far to you.
+Far to my shoes, and the small feet inside.
+These shoes are still magnificent, even with other means of transportation, like:
+Flight. 
+Not with wings.
+Just the shoes.
+They [[see]] me.
+
+
+:: see {"position":"800,1075","size":"100,100"}
+<img src="https://i.imgur.com/aqjaIZf.jpg"  style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+
+Problems,
+Are not really problems.
+Don’t understand.
+But it’s not really [[necessary.->7]]
+
+
+:: StoryScript [script]
+//_______________________IMAGES________________
+function preloadImages(imageUrls) {
+    imageUrls.forEach(function(url) {
+        let img = new Image();
+        img.src = url;
+    });
+}
+
+// Images&Gifs
+const allImages = [
+    "https://i.imgur.com/Y4GoOOW.jpg", //BG
+    "https://i.imgur.com/YCgY4pu.jpg", //Intro
+  	"https://i.imgur.com/xxTCx7s.jpg", //Flyingoff
+  	"https://i.imgur.com/wKnUZ2f.jpg", //FacingGuardina
+  	"https://i.imgur.com/V8OrhYN.jpg", //Putthekeyin
+  	"https://i.imgur.com/KLmTdeJ.jpg", //Opening
+  	"https://i.imgur.com/ZDyElL6.jpg", //FlyingPlain
+  	"https://i.imgur.com/aqjaIZf.jpg", //FlyingDark
+  	"https://i.imgur.com/m1DcJnx.jpg", //Landednow	
+  	"https://i.imgur.com/H8oXLAu.jpg", //FlyingWithKey
+  	"https://i.imgur.com/0PRd5TA.jpg", //Guardina
+  	"https://i.imgur.com/AIg93bO.jpg", //Bags
+  	"https://i.imgur.com/MulC56l.jpg", //ColorKey
+  	"https://i.imgur.com/5yRIQpN.jpg", //GiantWatyching
+  
+  
+  //GIFS
+    "https://i.imgur.com/GfX0f53.gif", //Throneroom1
+  	"https://i.imgur.com/YjaJDOk.gif", //Throneroom2
+    "https://i.imgur.com/J6kKVvN.gif", //Throneroom3
+    "https://i.imgur.com/ANqGzLj.gif", //Throneroom4
+    "https://i.imgur.com/yMDDFvs.gif", //LoadedGun
+    "https://i.imgur.com/6Kx013W.gif", //GunAtHead
+    "https://i.imgur.com/9iMy4NC.gif", //GunTable
+    "https://i.imgur.com/E4CR0mC.gif", //YouNeverWere
+    "https://i.imgur.com/36zsQgn.gif", //Youreanother
+    "https://i.imgur.com/lGbiMDC.gif", //Fire
+    "https://i.imgur.com/hgHM73R.gif", //Head
+    "https://i.imgur.com/o7upPNt.gif" //Ball
+];
+
+preloadImages(allImages);
+
+
+//-----------------AUDIO--------------------
+setup.preloadAudio = function (audioList) {
+    audioList.forEach(function (audio) {
+        let sound = new Audio();
+        sound.src = audio;
+    });
+};
+
+// Audio
+setup.preloadAudio([
+    		                "https://ia600607.us.archive.org/4/items/noir_20250309/Hatred.ogg",
+ "https://ia800607.us.archive.org/4/items/noir_20250309/Noir.ogg",
+ "https://ia600607.us.archive.org/4/items/noir_20250309/TheGun.ogg",
+ "https://ia800607.us.archive.org/4/items/noir_20250309/Ending.ogg",
+ "https://ia800607.us.archive.org/4/items/noir_20250309/Dying.ogg",
+"https://ia800607.us.archive.org/4/items/noir_20250309/Dying_Corrupt.ogg"
+  
+  
+]);
+
+//--------------------VIDEO------------------
+function preloadVideoGroup(videoUrls) {
+    videoUrls.forEach(function(url) {
+        let video = document.createElement("video");
+        video.src = url;
+        video.preload = "auto";
+        video.load(); // Ensures the video starts loading
+    });
+}
+
+
+const allVideos = [
+    "https://ia801201.us.archive.org/1/items/blinds-flicker/Thebook.mp4", //TheBook
+    "https://ia601201.us.archive.org/1/items/blinds-flicker/Lies.mp4", //Lies
+  	"https://ia801201.us.archive.org/1/items/blinds-flicker/BlindsFlicker.mp4" //BlindsFlicker
+];
+
+preloadVideoGroup(allVideos);
+
+
+
+
+:: StoryStylesheet [stylesheet]
+/* General body styling */
+body {
+  font-family: "Courier New", monospace;
+  font-size: 110%;
+  background-image: url("https://i.imgur.com/Y4GoOOW.jpg") !important;
+  background-repeat: repeat; /* Makes the image tile */
+  background-size: auto; /* Adjust size if necessary */
+  background-color: #ffffff; /* Optional: set a fallback color */
+}
+
+/* General link styling (for links to external websites, etc.) */
+a {
+	color: grey !important;
+}
+a:hover, a:focus {
+	filter: brightness(1.4);
+}
+
+/* Custom style for the story title */
+#story-title {
+  color: grey;
+}
+
+/* Hide the UI bar */
+#ui-bar {
+  display: none;
+}
+
+/* Fade-in animation definition */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to elements with the "fade-in" class */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 5s forwards; /* You can adjust the timing as needed */
+}
+
+/* Center passage content */
+#passages {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust for your design */
+  text-align: center;
+}
+
+/* Ensure images and videos are centered */
+img, video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Remove extra space from hidden sidebar */
+#story {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.gif-big {
+  display: block;
+  width: 100%; /* Stretches to full width */
+  height: auto; /* Keeps the aspect ratio */
+  max-width: 1000px; /* Prevents it from being too large on big screens */
+  margin: 0 auto; /* Centers the GIF */
+}
+
